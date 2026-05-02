@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import ProjectCard from '../components/ProjectCard';
 import { PROJECTS } from '../constants';
 
-const categories = ['All', 'Residential', 'Commercial', 'Interior'];
+const categories = ['All', 'Residential', 'Commercial', 'Interior', 'Architecture'];
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState('All');

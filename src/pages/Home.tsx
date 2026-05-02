@@ -63,8 +63,8 @@ export default function Home() {
           </NavLink>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {PROJECTS.slice(0, 3).map((project, idx) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          {PROJECTS.map((project, idx) => (
             <ProjectCard key={project.id} project={project} index={idx} />
           ))}
         </div>

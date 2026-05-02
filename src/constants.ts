@@ -7,53 +7,35 @@ export const PROJECTS: Project[] = [
     category: 'Residential',
     image: 'https://images.pexels.com/photos/14589851/pexels-photo-14589851.jpeg',
     description: 'A minimalist sanctuary blending raw concrete with refined timber.',
-    year: '2023',
-    location: 'Beverly Hills, CA'
+    year: '2024',
+    location: 'Malibu, CA'
   },
   {
     id: '2',
-    title: 'Vertex Plaza',
-    category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800',
-    description: 'Dynamic office architecture focusing on verticality and natural light.',
-    year: '2022',
-    location: 'London, UK'
+    title: 'Glass Pavilion',
+    category: 'Architecture',
+    image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg',
+    description: 'Bespoke structural glass integration in a natural forest setting.',
+    year: '2023',
+    location: 'Zurich, CH'
   },
   {
     id: '3',
-    title: 'Ivory Loft',
+    title: 'Urban Loft Studio',
     category: 'Interior',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800',
-    description: 'An expansive open-concept interior featuring pearl finishes.',
-    year: '2024',
-    location: 'Paris, FR'
+    image: 'https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg',
+    description: 'Industrial chic reimagined for modern creative workspaces.',
+    year: '2023',
+    location: 'Berlin, DE'
   },
   {
     id: '4',
-    title: 'Nexus Pavillion',
+    title: 'Corporate Headquarters',
     category: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&q=80&w=800',
-    description: 'A modern community hub with parametric design elements.',
-    year: '2023',
-    location: 'Tokyo, JP'
-  },
-  {
-    id: '5',
-    title: 'Desert Mirage',
-    category: 'Residential',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800',
-    description: 'Luxury villa seamlessly integrated into the arid landscape.',
+    image: 'https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg',
+    description: 'Sustainable office design focusing on vertical greenery.',
     year: '2024',
-    location: 'Dubai, UAE'
-  },
-  {
-    id: '6',
-    title: 'Starlight Suite',
-    category: 'Interior',
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800',
-    description: 'High-end penthouse renovation with bespoke marble work.',
-    year: '2021',
-    location: 'New York, NY'
+    location: 'Singapore, SG'
   }
 ];
 

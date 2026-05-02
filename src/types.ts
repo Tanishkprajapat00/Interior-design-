@@ -1,7 +1,7 @@
 export interface Project {
   id: string;
   title: string;
-  category: 'Residential' | 'Commercial' | 'Interior';
+  category: 'Residential' | 'Commercial' | 'Interior' | 'Architecture';
   image: string;
   description: string;
   year: string;
